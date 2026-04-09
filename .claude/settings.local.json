@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:news.ycombinator.com)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:job-boards.greenhouse.io)",
+      "WebFetch(domain:www.levels.fyi)",
+      "WebFetch(domain:hai.stanford.edu)",
+      "WebFetch(domain:sierra.ai)",
+      "WebFetch(domain:www.interconnects.ai)",
+      "WebFetch(domain:ppc.land)",
+      "WebFetch(domain:www.secondtalent.com)",
+      "WebFetch(domain:www.mckinsey.com)",
+      "WebFetch(domain:fortune.com)",
+      "WebFetch(domain:www.langchain.com)",
+      "WebFetch(domain:newsletter.pragmaticengineer.com)",
+      "WebFetch(domain:www.glassdoor.com)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:boards-api.greenhouse.io)",
+      "WebFetch(domain:api.lever.co)",
+      "WebFetch(domain:jobs.lever.co)",
+      "WebFetch(domain:metr.org)",
+      "WebFetch(domain:www.redwoodresearch.org)"
+    ]
+  }
+}
