@@ -80,14 +80,14 @@ The Streamlit dashboard has 5 tabs:
 ### Tab 1 — Overview
 KPI cards, source breakdown pie chart, daily scrape volume bar chart, and a live postings table.
 
-![Overview tab showing KPI cards for total postings, median salary, experience filter, and top company, with a pie chart of data sources and bar chart of daily volume](docs/screenshots/tab1_overview.png)
+![Overview tab showing KPI cards for total postings, median salary, experience filter, and top company, with a pie chart of data sources and bar chart of daily volume](agents_hiring_tracker/docs/screenshots/tab1_overview.png)
 
 ---
 
 ### Tab 2 — Hypothesis Testing
 Four hypothesis cards, each showing verdict badge, observed vs. hypothesized value, p-value, confidence interval, and a mini-chart.
 
-![Hypothesis testing tab with four cards: H1 SUPPORTED in green, H2 REJECTED in red, H3 REJECTED in red, H4 REJECTED in red, each with statistical detail and visualization](docs/screenshots/tab2_hypotheses.png)
+![Hypothesis testing tab with four cards: H1 SUPPORTED in green, H2 REJECTED in red, H3 REJECTED in red, H4 REJECTED in red, each with statistical detail and visualization](agents_hiring_tracker/docs/screenshots/tab2_hypotheses.png)
 
 **Example card layout:**
 
@@ -111,21 +111,21 @@ Four hypothesis cards, each showing verdict badge, observed vs. hypothesized val
 ### Tab 3 — Salary & Experience
 Salary histogram with H₂ and observed-median markers, box plots by company type, scatter of salary vs. experience, and experience distribution bar chart.
 
-![Salary and experience tab showing a histogram of base salary distribution with marker lines at $150K hypothesis and $175K observed median, plus scatter plot of salary vs years experience](docs/screenshots/tab3_salary.png)
+![Salary and experience tab showing a histogram of base salary distribution with marker lines at $150K hypothesis and $175K observed median, plus scatter plot of salary vs years experience](agents_hiring_tracker/docs/screenshots/tab3_salary.png)
 
 ---
 
 ### Tab 4 — Companies & Skills
 Company type pie chart (with H₄ expected proportions noted), top 15 hiring companies bar chart, top 25 required skills horizontal bar, skill word cloud, and subfield comparison bar chart.
 
-![Companies and skills tab showing pie chart of company types, horizontal bar chart of top 15 companies led by Anthropic, and skills frequency bar chart led by Python and TypeScript](docs/screenshots/tab4_companies.png)
+![Companies and skills tab showing pie chart of company types, horizontal bar chart of top 15 companies led by Anthropic, and skills frequency bar chart led by Python and TypeScript](agents_hiring_tracker/docs/screenshots/tab4_companies.png)
 
 ---
 
 ### Tab 5 — Trends, Alerts & Community
 Daily posting volume line chart, new job alerts feed table, collapsible editorial quotes from 6 expert sources, and collapsible community voice excerpts from Reddit/HN/Twitter.
 
-![Trends tab showing daily line chart of posting volume over 30 days, scrollable new jobs alert table, and expandable editorial sections from LangChain, McKinsey, Stanford AI Index](docs/screenshots/tab5_trends.png)
+![Trends tab showing daily line chart of posting volume over 30 days, scrollable new jobs alert table, and expandable editorial sections from LangChain, McKinsey, Stanford AI Index](agents_hiring_tracker/docs/screenshots/tab5_trends.png)
 
 > **To add screenshots:** run the dashboard, take a screenshot of each tab, and save to `docs/screenshots/tab{N}_{name}.png`.
 
